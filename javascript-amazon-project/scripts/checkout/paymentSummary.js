@@ -61,7 +61,7 @@ export function renderPaymentSummary() {
 
 	document.querySelector('.js-place-order')
     .addEventListener('click', async () => {
-      try {
+    try {
         const response = await fetch('https://supersimplebackend.dev/orders', {
         method: 'POST',
         headers: {
